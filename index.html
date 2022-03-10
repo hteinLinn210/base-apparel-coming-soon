@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+      <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="css/styles.css" />
+
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+   </head>
+   <body>
+      <main>
+         <div class="container">
+            <nav class="logo">
+               <img class="logo-img" src="images/logo.svg" alt="" />
+            </nav>
+            <div class="left-section">
+               <h1 class="heading"><span class="pink-text">We're</span> coming soon</h1>
+               <p class="desc">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+               <div class="submit-section">
+                  <input type="text" name="email" id="email" placeholder="Email Address" autocomplete="off" />
+                  <button class="send-btn" type="submit"><img src="images/icon-arrow.svg" alt="Arrow Icon" /></button>
+               </div>
+               <p class="error-msg">Please provide a valid email</p>
+            </div>
+            <div class="right-section">
+               <img class="hero-img" src="images/hero-desktop.jpg" alt="Model Photo" />
+            </div>
+         </div>
+      </main>
+
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="app.js"></script>
+   </body>
+</html>
